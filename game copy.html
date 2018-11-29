@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Webpage Assignment</title>
+		<link href="game.css" type="text/css" rel="stylesheet" />
+	</head>
+<!-- referenced from https://www.w3schools.com/graphics/tryit.asp?filename=trygame_score -->
+<body onload="startGame()">
+
+	<div style="text-align:center;width:480px;">
+	  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br/>
+	  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+	  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br/>
+	  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+	</div>
+
+	<p>I hope this motivational music helps you stay alive!</p>
+
+		<script type="text/javascript" src="game.js"> </script>
+
+		<iframe width="20" height="20" src="https://www.youtube.com/embed/I_izvAbhExY?autoplay=1&cc_load_policy=1">
+		</iframe>
+
+	</body>
+	</html>

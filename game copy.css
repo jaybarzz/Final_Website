@@ -1,0 +1,9 @@
+/*referenced from https://www.w3schools.com/graphics/tryit.asp?filename=trygame_score */
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+body{
+  font-family: Verdana,sans-serif;
+  background-color:	#b0c7de;
+}
